@@ -2,7 +2,7 @@
 
 # AlignCov
 
-`aligncov` is a bioinformatics tool which can be used to obtain a) alignment summary statistics and b) read depths from sorted BAM files in tidy tab-separated tables.
+AlignCov is a bioinformatics tool which can be used to obtain a) alignment summary statistics and b) read depths from sorted BAM files in tidy tab-separated tables.
 
 ## Future plans
 
@@ -31,7 +31,7 @@ This script takes a sorted BAM file as input and uses [SAMtools](http://samtools
 
 ## Installation
 
-`aligncov` can be installed using Pip with the following command:
+AlignCov can be installed using Pip with the following command:
 
 ```bash
 pip install aligncov
