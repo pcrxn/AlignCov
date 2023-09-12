@@ -4,11 +4,6 @@
 
 AlignCov is a bioinformatics tool which can be used to obtain a) alignment summary statistics and b) read depths from sorted BAM files in tidy tab-separated tables.
 
-## Future plans
-
-- [ ] Create a Bioconda recipe
-- [ ] Create a Docker image
-
 ## Introduction
 
 This script takes a sorted BAM file as input and uses [SAMtools](http://samtools.sourceforge.net/) and Python [Pandas](https://pandas.pydata.org/) to generate two tables:
@@ -31,7 +26,20 @@ This script takes a sorted BAM file as input and uses [SAMtools](http://samtools
 
 ## Installation
 
-AlignCov can be installed using Pip with the following command:
+### Conda
+
+The recommended installation method for AlignCov is using the [Conda](https://docs.conda.io/projects/miniconda/en/latest/) package manager.
+After [adding the Bioconda channel to your Conda installation](https://bioconda.github.io/), AlignCov can be installed into a new Conda environment named `aligncov` with the following command:
+
+```bash
+conda create -n aligncov aligncov
+```
+
+The `aligncov` Conda environment can then be activated with `conda activate aligncov`.
+
+### Pip
+
+Alternatively, AlignCov can be installed into a Python environment using Pip with the following command:
 
 ```bash
 pip install aligncov
