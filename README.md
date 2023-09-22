@@ -1,4 +1,6 @@
 [![PyPI version](https://badge.fury.io/py/aligncov.svg)](https://badge.fury.io/py/aligncov)
+[![Anaconda-Server Badge](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square&logo=anaconda)](https://anaconda.org/bioconda/aligncov)
+[![Biocontainers Badge](https://img.shields.io/badge/install%20with-docker-important.svg?style=flat-square&logo=docker)](https://biocontainers.pro/tools/aligncov)
 
 # AlignCov
 
