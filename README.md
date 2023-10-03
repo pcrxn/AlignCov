@@ -4,7 +4,7 @@
 
 # AlignCov
 
-AlignCov is a bioinformatics tool which can be used to obtain a) alignment summary statistics and b) read depths from sorted BAM files in tidy tab-separated tables.
+AlignCov is a Python package which can be used to obtain a) alignment summary statistics and b) read depths from sorted BAM files in tidy tab-separated tables.
 
 ## Introduction
 
